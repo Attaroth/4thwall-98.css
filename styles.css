@@ -8,7 +8,7 @@
   /* Color */
   --text-color: #222222;
   --surface: #c0c0c0;
-  /*--button-highlight: #ffffff;*/
+  --button-highlight: #ffffff;
   --button-face: #dfdfdf;
   --button-shadow: #808080;
   --window-frame: #0a0a0a;
@@ -164,8 +164,8 @@ input[type="reset"].default {
   box-shadow: var(--default-button-border-raised-outer), var(--default-button-border-raised-inner);
 }
 
-.button,
-input[type="submit"].default/*,
+.button/*,
+input[type="submit"].default,
 input[type="reset"].default*/  {
   box-sizing: border-box;
   border: none;
