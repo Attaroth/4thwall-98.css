@@ -175,9 +175,9 @@ input[type="reset"].default  {
   box-shadow: var(--border-raised-outer), var(--border-raised-inner);
   border-radius: 0;
 
-  min-width: 75px;
+ /* min-width: 75px;
   min-height: 23px;
-  padding: 0 12px;
+  padding: 0 12px;*/
 }
 
 .vertical-bar {
