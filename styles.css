@@ -164,17 +164,17 @@ input[type="reset"].default {
   box-shadow: var(--default-button-border-raised-outer), var(--default-button-border-raised-inner);
 }
 
-.button/*,
+.button,
 input[type="submit"].default,
 input[type="reset"].default*/  {
-  /*box-sizing: border-box;
+  box-sizing: border-box;
   border: none;
   color: transparent;
   text-shadow: 0 0 var(--text-color);
   background: var(--surface);
   box-shadow: var(--border-raised-outer), var(--border-raised-inner);
   border-radius: 0;
-*/
+
  /* min-width: 75px;
   min-height: 23px;
   padding: 0 12px;*/
@@ -200,12 +200,12 @@ input[type="reset"].default:not(:disabled):active {
   box-shadow: var(--default-button-border-sunken-outer), var(--default-button-border-sunken-inner);
 }
 
-/*@media (not(hover)) {
+@media (not(hover)) {
   button:not(:disabled):hover,
   input[type="submit"]:not(:disabled):hover,
   input[type="reset"]:not(:disabled):hover {
     box-shadow: var(--border-sunken-outer), var(--border-sunken-inner);
-  }*/
+  }
 }
 
 button:focus,
