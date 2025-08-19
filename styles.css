@@ -166,7 +166,7 @@ input[type="reset"].default {
 
 .button,
 input[type="submit"].default,
-input[type="reset"].default*/  {
+input[type="reset"].default  {
   box-sizing: border-box;
   border: none;
   color: transparent;
