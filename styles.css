@@ -161,7 +161,7 @@ input[type="reset"] {
 button.default,
 input[type="submit"].default,
 input[type="reset"].default {
-  box-shadow: var(--default-button-border-raised-outer), var(--default-button-border-raised-inner);
+  box-shadow: var(--border-raised-outer), var(--border-raised-inner);/*var(--default-button-border-raised-outer), var(--default-button-border-raised-inner);*/
 }
 
 .button,
