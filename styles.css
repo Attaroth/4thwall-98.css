@@ -169,7 +169,7 @@ input[type="submit"].default,
 input[type="reset"].default  {
   box-sizing: border-box;
   border: none;
-  color: #dfdfdf;
+  color: transparent;
   text-shadow: 0 0 var(--text-color);
   background: var(--surface);
   box-shadow: var(--border-raised-outer), var(--border-raised-inner);
