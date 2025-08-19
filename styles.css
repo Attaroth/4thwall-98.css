@@ -386,6 +386,7 @@ label {
   user-select: none;
 }
 
+.radio,
 input[type="radio"],
 input[type="checkbox"] {
   appearance: none;
