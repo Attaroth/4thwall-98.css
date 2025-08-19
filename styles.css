@@ -107,7 +107,6 @@ body {
 button,
 label,
 input,
-radio,
 legend,
 textarea,
 select,
@@ -167,8 +166,18 @@ input[type="reset"].default {
 
 .button,
 input[type="submit"].default,
-input[type="reset"].default {
-  box-shadow: var(--default-button-border-raised-outer), var(--default-button-border-raised-inner);
+input[type="reset"].default  {
+  box-sizing: border-box;
+  border: none;
+  color: transparent;
+  text-shadow: 0 0 var(--text-color);
+  background: var(--surface);
+  box-shadow: var(--border-raised-outer), var(--border-raised-inner);
+  border-radius: 0;
+
+  min-width: 75px;
+  min-height: 23px;
+  padding: 0 12px;
 }
 
 .vertical-bar {
