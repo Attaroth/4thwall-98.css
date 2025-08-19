@@ -180,7 +180,7 @@ input[type="reset"].default  {
   padding: 0 12px;*/
 }
 
-.modal__close,
+/*.modal__close,
 input[type="submit"].default,
 input[type="reset"].default  {
   box-sizing: border-box;
@@ -191,10 +191,10 @@ input[type="reset"].default  {
   box-shadow: var(--border-raised-outer), var(--border-raised-inner);
   border-radius: 0;
 
- /* min-width: 75px;
+  min-width: 75px;
   min-height: 23px;
-  padding: 0 12px;*/
-}
+  padding: 0 12px;
+}*/
 
 
 .cart-item__remove-button, {
