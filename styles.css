@@ -197,7 +197,7 @@ input[type="reset"].default  {
 }*/
 
 
-.cart-item__remove-button, {
+.cart-item__remove-button {
   box-sizing: border-box;
   border: none;
   color: transparent;
