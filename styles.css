@@ -180,6 +180,22 @@ input[type="reset"].default  {
   padding: 0 12px;*/
 }
 
+.cart-item__remove-button,
+input[type="submit"].default,
+input[type="reset"].default  {
+  box-sizing: border-box;
+  border: none;
+  color: transparent;
+  text-shadow: 0 0 var(--text-color);
+  background: var(--surface);
+  box-shadow: var(--border-raised-outer), var(--border-raised-inner);
+  border-radius: 0;
+
+ /* min-width: 75px;
+  min-height: 23px;
+  padding: 0 12px;*/
+}
+
 .vertical-bar {
   width: 4px;
   height: 20px;
